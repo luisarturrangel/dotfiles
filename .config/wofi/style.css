@@ -1,0 +1,69 @@
+@import url("/home/luis/dotfiles/colorscheme/catpucchin_mocha.css.css");
+
+* {
+  outline-style: none;
+  border: none;
+  background: transparent;
+  font-family: FiraCode Mono Nerd Font;
+  font-size: 20px;
+}
+
+window {
+  /* box-shadow: 0 0 10 20 @altblack; */
+  border-radius: 10px;
+  margin: 0px;
+  border: 4px solid;
+  border-image: linear-gradient(#090979, #00d4ff) 30;
+  background-color: @black;
+}
+
+#input {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  color: @foreground;
+  background-color: @altblack;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+  background-color: @black;
+}
+
+#outer-box {
+  margin: 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: @foreground;
+}
+
+#entry.activatable #text {
+  color: @white;
+}
+
+#entry > * {
+  padding: 5px;
+  color: #f8f8f2;
+}
+
+#entry:selected {
+  border-radius: 20px;
+  background-color: @altblack;
+}
+
+#entry:selected #text {
+  /* font-style: italic; */
+  font-weight: bold;
+}
