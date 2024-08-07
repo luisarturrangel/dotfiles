@@ -1,2 +1,2 @@
 # customization
-my settings for some apps
+my settings for hyprland mostly
